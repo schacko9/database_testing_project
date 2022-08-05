@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel='tests'>
+
+	<listeners>
+		<listener class-name="resources.Listeners" />
+	</listeners>
+	
+	<test thread-count="5" name="E2E Test" parallel='methods'>
+		<classes>
+			<class name="tests.SauceLabsDBTest" />
+		</classes>
+	</test> 
+	
+	<test thread-count="5" name="Database Test" parallel='methods'>
+		<classes>
+			<class name="tests.StoredProceduresTest" />
+			<class name="tests.StoredFunctionsTest" />
+			<class name="tests.TriggersTest" />
+			<class name="tests.DataValidationTest" />
+		</classes>
+	</test> 
+	
+</suite> 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-03T19:28:13 EDT" name="Default suite" finished-at="2022-08-03T19:28:13 EDT" duration-ms="89">
+    <groups>
+    </groups>
+    <test started-at="2022-08-03T19:28:13 EDT" name="Default test" finished-at="2022-08-03T19:28:13 EDT" duration-ms="89">
+      <class name="tests.DataValidationTest">
+        <test-method signature="test_Student_CourseID_ForeignKey()[pri:9, instance:tests.DataValidationTest@5bf0fe62]" started-at="2022-08-03T19:28:13 EDT" name="test_Student_CourseID_ForeignKey" finished-at="2022-08-03T19:28:13 EDT" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Student_CourseID_ForeignKey -->
+      </class> <!-- tests.DataValidationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
