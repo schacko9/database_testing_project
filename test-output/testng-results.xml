@@ -1,17 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-03T19:28:13 EDT" name="Default suite" finished-at="2022-08-03T19:28:13 EDT" duration-ms="89">
+  <suite started-at="2022-08-05T10:18:57 EDT" name="Default suite" finished-at="2022-08-05T10:19:06 EDT" duration-ms="8766">
     <groups>
+      <group name="database">
+        <method signature="SauceLabsDBTest.test_SauceLabs(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SauceLabsDBTest@4f5991f6]" name="test_SauceLabs" class="tests.SauceLabsDBTest"/>
+      </group> <!-- database -->
     </groups>
-    <test started-at="2022-08-03T19:28:13 EDT" name="Default test" finished-at="2022-08-03T19:28:13 EDT" duration-ms="89">
-      <class name="tests.DataValidationTest">
-        <test-method signature="test_Student_CourseID_ForeignKey()[pri:9, instance:tests.DataValidationTest@5bf0fe62]" started-at="2022-08-03T19:28:13 EDT" name="test_Student_CourseID_ForeignKey" finished-at="2022-08-03T19:28:13 EDT" duration-ms="52" status="PASS">
+    <test started-at="2022-08-05T10:18:57 EDT" name="Default test" finished-at="2022-08-05T10:19:06 EDT" duration-ms="8766">
+      <class name="tests.SauceLabsDBTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SauceLabsDBTest@4f5991f6]" started-at="2022-08-05T10:18:57 EDT" name="setup" finished-at="2022-08-05T10:19:00 EDT" duration-ms="3134" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_Student_CourseID_ForeignKey -->
-      </class> <!-- tests.DataValidationTest -->
+        </test-method> <!-- setup -->
+        <test-method signature="test_SauceLabs(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SauceLabsDBTest@4f5991f6]" started-at="2022-08-05T10:19:00 EDT" name="test_SauceLabs" data-provider="DP" finished-at="2022-08-05T10:19:02 EDT" duration-ms="1716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sauce Labs Onesie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SauceLabs -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SauceLabsDBTest@4f5991f6]" started-at="2022-08-05T10:19:02 EDT" name="teardown" finished-at="2022-08-05T10:19:02 EDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SauceLabsDBTest@4f5991f6]" started-at="2022-08-05T10:19:02 EDT" name="setup" finished-at="2022-08-05T10:19:04 EDT" duration-ms="1892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_SauceLabs(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SauceLabsDBTest@4f5991f6]" started-at="2022-08-05T10:19:04 EDT" name="test_SauceLabs" data-provider="DP" finished-at="2022-08-05T10:19:06 EDT" duration-ms="1604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sauce Labs Bolt T-Shirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SauceLabs -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SauceLabsDBTest@4f5991f6]" started-at="2022-08-05T10:19:06 EDT" name="teardown" finished-at="2022-08-05T10:19:06 EDT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SauceLabsDBTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

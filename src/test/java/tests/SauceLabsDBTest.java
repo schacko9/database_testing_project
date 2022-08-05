@@ -1,5 +1,8 @@
 package tests;
 
+import java.sql.SQLException;
+
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -22,11 +25,11 @@ public final class SauceLabsDBTest extends BaseTest {
 	}
 	
 	
-	
 	@Test(dataProvider="DP", groups = {"database"})
 	public void test_SauceLabs(String id, String user, String pass, String product) throws Exception{
 		System.out.println(id+", "+user+", "+pass+", "+product);
-
+		db.setup_SLDB_update(id);
+		
 		login.getUsername(user);
 		login.getPassword(pass);
 		login.getLogin();

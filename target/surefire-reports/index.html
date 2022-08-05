@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.TriggersTest" class="method navigator-link" hash-for-method="test_After_Member_Insert">test_After_Member_Insert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.TriggersTest" class="method navigator-link" hash-for-method="test_After_Salaries_Delete">test_After_Salaries_Delete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.TriggersTest" class="method navigator-link" hash-for-method="test_After_Sales_Update">test_After_Sales_Update</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.TriggersTest" class="method navigator-link" hash-for-method="test_Before_Salaries_Delete">test_Before_Salaries_Delete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.TriggersTest" class="method navigator-link" hash-for-method="test_Before_Sales_Update">test_Before_Sales_Update</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.TriggersTest" class="method navigator-link" hash-for-method="test_Before_Workcenters_Insert">test_Before_Workcenters_Insert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.DataValidationTest" class="method navigator-link" hash-for-method="test_Course_Duration_NULL">test_Course_Duration_NULL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.DataValidationTest" class="method navigator-link" hash-for-method="test_Course_Fee_Check">test_Course_Fee_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.DataValidationTest" class="method navigator-link" hash-for-method="test_Course_ID_NULL">test_Course_ID_NULL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.DataValidationTest" class="method navigator-link" hash-for-method="test_Course_ID_PrimaryKey">test_Course_ID_PrimaryKey</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.DataValidationTest" class="method navigator-link" hash-for-method="test_Course_Name_Unique">test_Course_Name_Unique</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.StoredFunctionsTest" class="method navigator-link" hash-for-method="test_CustomerLevel_Function">test_CustomerLevel_Function</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.StoredFunctionsTest" class="method navigator-link" hash-for-method="test_CustomerLevel_With_Procedure">test_CustomerLevel_With_Procedure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.StoredFunctionsTest" class="method navigator-link" hash-for-method="test_FunctionExists">test_FunctionExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.StoredProceduresTest" class="method navigator-link" hash-for-method="test_GetCustomerShipping">test_GetCustomerShipping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.StoredProceduresTest" class="method navigator-link" hash-for-method="test_GetOrderByCustomer">test_GetOrderByCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.SauceLabsDBTest" class="method navigator-link" hash-for-method="test_SauceLabs(6, standard_user, secret_sauce, Sauce Labs Onesie)">test_SauceLabs(6, standard_user, secret_sauce, Sauce Labs Onesie)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.SauceLabsDBTest" class="method navigator-link" hash-for-method="test_SauceLabs(7, standard_user, secret_sauce, Sauce Labs Bolt T-Shirt)">test_SauceLabs(7, standard_user, secret_sauce, Sauce Labs Bolt T-Shirt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.StoredProceduresTest" class="method navigator-link" hash-for-method="test_SelectAllCustomers">test_SelectAllCustomers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.StoredProceduresTest" class="method navigator-link" hash-for-method="test_SelectAllCustomers_By_City">test_SelectAllCustomers_By_City</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.StoredProceduresTest" class="method navigator-link" hash-for-method="test_SelectAllCustomers_By_City_And_Pin">test_SelectAllCustomers_By_City_And_Pin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.StoredProceduresTest" class="method navigator-link" hash-for-method="test_StoreProcedureExists">test_StoreProcedureExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.DataValidationTest" class="method navigator-link" hash-for-method="test_Student_Age_Check">test_Student_Age_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.DataValidationTest" class="method navigator-link" hash-for-method="test_Student_CourseID_ForeignKey">test_Student_CourseID_ForeignKey</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.DataValidationTest" class="method navigator-link" hash-for-method="test_Student_ID_PrimaryKey">test_Student_ID_PrimaryKey</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.DataValidationTest" class="method navigator-link" hash-for-method="test_Student_Name_NULL">test_Student_Name_NULL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TriggersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_After_Member_Insert">
+                  </a> <!-- test_After_Member_Insert -->
+                  <span class="method-name">test_After_Member_Insert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_After_Salaries_Delete">
+                  </a> <!-- test_After_Salaries_Delete -->
+                  <span class="method-name">test_After_Salaries_Delete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_After_Sales_Update">
+                  </a> <!-- test_After_Sales_Update -->
+                  <span class="method-name">test_After_Sales_Update</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Before_Salaries_Delete">
+                  </a> <!-- test_Before_Salaries_Delete -->
+                  <span class="method-name">test_Before_Salaries_Delete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Before_Sales_Update">
+                  </a> <!-- test_Before_Sales_Update -->
+                  <span class="method-name">test_Before_Sales_Update</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Before_Workcenters_Insert">
+                  </a> <!-- test_Before_Workcenters_Insert -->
+                  <span class="method-name">test_Before_Workcenters_Insert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SauceLabsDBTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_SauceLabs(6, standard_user, secret_sauce, Sauce Labs Onesie)">
+                  </a> <!-- test_SauceLabs(6, standard_user, secret_sauce, Sauce Labs Onesie) -->
+                  <span class="method-name">test_SauceLabs</span>
+                  <span class="parameters">(6,standard_user,secret_sauce,Sauce Labs Onesie)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_SauceLabs(7, standard_user, secret_sauce, Sauce Labs Bolt T-Shirt)">
+                  </a> <!-- test_SauceLabs(7, standard_user, secret_sauce, Sauce Labs Bolt T-Shirt) -->
+                  <span class="method-name">test_SauceLabs</span>
+                  <span class="parameters">(7,standard_user,secret_sauce,Sauce Labs Bolt T-Shirt)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DataValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Course_Duration_NULL">
+                  </a> <!-- test_Course_Duration_NULL -->
+                  <span class="method-name">test_Course_Duration_NULL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Course_Fee_Check">
+                  </a> <!-- test_Course_Fee_Check -->
+                  <span class="method-name">test_Course_Fee_Check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Course_ID_NULL">
+                  </a> <!-- test_Course_ID_NULL -->
+                  <span class="method-name">test_Course_ID_NULL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Course_ID_PrimaryKey">
+                  </a> <!-- test_Course_ID_PrimaryKey -->
+                  <span class="method-name">test_Course_ID_PrimaryKey</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Course_Name_Unique">
+                  </a> <!-- test_Course_Name_Unique -->
+                  <span class="method-name">test_Course_Name_Unique</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Student_Age_Check">
+                  </a> <!-- test_Student_Age_Check -->
+                  <span class="method-name">test_Student_Age_Check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Student_CourseID_ForeignKey">
+                  </a> <!-- test_Student_CourseID_ForeignKey -->
+                  <span class="method-name">test_Student_CourseID_ForeignKey</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Student_ID_PrimaryKey">
+                  </a> <!-- test_Student_ID_PrimaryKey -->
+                  <span class="method-name">test_Student_ID_PrimaryKey</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Student_Name_NULL">
+                  </a> <!-- test_Student_Name_NULL -->
+                  <span class="method-name">test_Student_Name_NULL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.StoredFunctionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_CustomerLevel_Function">
+                  </a> <!-- test_CustomerLevel_Function -->
+                  <span class="method-name">test_CustomerLevel_Function</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_CustomerLevel_With_Procedure">
+                  </a> <!-- test_CustomerLevel_With_Procedure -->
+                  <span class="method-name">test_CustomerLevel_With_Procedure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_FunctionExists">
+                  </a> <!-- test_FunctionExists -->
+                  <span class="method-name">test_FunctionExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.StoredProceduresTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_GetCustomerShipping">
+                  </a> <!-- test_GetCustomerShipping -->
+                  <span class="method-name">test_GetCustomerShipping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_GetOrderByCustomer">
+                  </a> <!-- test_GetOrderByCustomer -->
+                  <span class="method-name">test_GetOrderByCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_SelectAllCustomers">
+                  </a> <!-- test_SelectAllCustomers -->
+                  <span class="method-name">test_SelectAllCustomers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_SelectAllCustomers_By_City">
+                  </a> <!-- test_SelectAllCustomers_By_City -->
+                  <span class="method-name">test_SelectAllCustomers_By_City</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_SelectAllCustomers_By_City_And_Pin">
+                  </a> <!-- test_SelectAllCustomers_By_City_And_Pin -->
+                  <span class="method-name">test_SelectAllCustomers_By_City_And_Pin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_StoreProcedureExists">
+                  </a> <!-- test_StoreProcedureExists -->
+                  <span class="method-name">test_StoreProcedureExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.DataValidationTest&quot;/&gt;
+      &lt;class name=&quot;tests.SauceLabsDBTest&quot;/&gt;
+      &lt;class name=&quot;tests.StoredFunctionsTest&quot;/&gt;
+      &lt;class name=&quot;tests.StoredProceduresTest&quot;/&gt;
+      &lt;class name=&quot;tests.TriggersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">database</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_SauceLabs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_SauceLabs')
+data.setCell(0, 2, 'tests.SauceLabsDBTest')
+data.setCell(0, 3, 2455);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_SauceLabs')
+data.setCell(1, 2, 'tests.SauceLabsDBTest')
+data.setCell(1, 3, 1990);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_Course_ID_PrimaryKey')
+data.setCell(2, 2, 'tests.DataValidationTest')
+data.setCell(2, 3, 49);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_CustomerLevel_With_Procedure')
+data.setCell(3, 2, 'tests.StoredFunctionsTest')
+data.setCell(3, 3, 46);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_FunctionExists')
+data.setCell(4, 2, 'tests.StoredFunctionsTest')
+data.setCell(4, 3, 30);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_CustomerLevel_Function')
+data.setCell(5, 2, 'tests.StoredFunctionsTest')
+data.setCell(5, 3, 29);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_SelectAllCustomers')
+data.setCell(6, 2, 'tests.StoredProceduresTest')
+data.setCell(6, 3, 28);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_Before_Salaries_Delete')
+data.setCell(7, 2, 'tests.TriggersTest')
+data.setCell(7, 3, 22);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_Before_Workcenters_Insert')
+data.setCell(8, 2, 'tests.TriggersTest')
+data.setCell(8, 3, 16);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_GetOrderByCustomer')
+data.setCell(9, 2, 'tests.StoredProceduresTest')
+data.setCell(9, 3, 15);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_Student_Age_Check')
+data.setCell(10, 2, 'tests.DataValidationTest')
+data.setCell(10, 3, 13);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_StoreProcedureExists')
+data.setCell(11, 2, 'tests.StoredProceduresTest')
+data.setCell(11, 3, 12);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_SelectAllCustomers_By_City_And_Pin')
+data.setCell(12, 2, 'tests.StoredProceduresTest')
+data.setCell(12, 3, 11);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_After_Member_Insert')
+data.setCell(13, 2, 'tests.TriggersTest')
+data.setCell(13, 3, 11);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_Student_ID_PrimaryKey')
+data.setCell(14, 2, 'tests.DataValidationTest')
+data.setCell(14, 3, 10);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test_Course_Name_Unique')
+data.setCell(15, 2, 'tests.DataValidationTest')
+data.setCell(15, 3, 10);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_SelectAllCustomers_By_City')
+data.setCell(16, 2, 'tests.StoredProceduresTest')
+data.setCell(16, 3, 10);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test_After_Salaries_Delete')
+data.setCell(17, 2, 'tests.TriggersTest')
+data.setCell(17, 3, 9);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test_GetCustomerShipping')
+data.setCell(18, 2, 'tests.StoredProceduresTest')
+data.setCell(18, 3, 8);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test_Before_Sales_Update')
+data.setCell(19, 2, 'tests.TriggersTest')
+data.setCell(19, 3, 6);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test_After_Sales_Update')
+data.setCell(20, 2, 'tests.TriggersTest')
+data.setCell(20, 3, 5);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test_Course_Fee_Check')
+data.setCell(21, 2, 'tests.DataValidationTest')
+data.setCell(21, 3, 3);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'test_Student_CourseID_ForeignKey')
+data.setCell(22, 2, 'tests.DataValidationTest')
+data.setCell(22, 3, 3);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'test_Course_Duration_NULL')
+data.setCell(23, 2, 'tests.DataValidationTest')
+data.setCell(23, 3, 3);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'test_Student_Name_NULL')
+data.setCell(24, 2, 'tests.DataValidationTest')
+data.setCell(24, 3, 2);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'test_Course_ID_NULL')
+data.setCell(25, 2, 'tests.DataValidationTest')
+data.setCell(25, 3, 1);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DataValidationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_Course_ID_PrimaryKey</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Course_ID_NULL</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Course_Name_Unique</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Course_Duration_NULL</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Course_Fee_Check</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Student_ID_PrimaryKey</span>
+                <span class="method-start">73 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Student_Name_NULL</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Student_Age_Check</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Student_CourseID_ForeignKey</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SauceLabsDBTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_SauceLabs(6, standard_user, secret_sauce, Sauce Labs Onesie)</span>
+                <span class="method-start">5089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">7079 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_SauceLabs(7, standard_user, secret_sauce, Sauce Labs Bolt T-Shirt)</span>
+                <span class="method-start">9831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">12286 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.StoredFunctionsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_FunctionExists</span>
+                <span class="method-start">12934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_CustomerLevel_Function</span>
+                <span class="method-start">12966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_CustomerLevel_With_Procedure</span>
+                <span class="method-start">12997 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.StoredProceduresTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_StoreProcedureExists</span>
+                <span class="method-start">13044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_SelectAllCustomers</span>
+                <span class="method-start">13057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_SelectAllCustomers_By_City</span>
+                <span class="method-start">13086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_SelectAllCustomers_By_City_And_Pin</span>
+                <span class="method-start">13097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_GetOrderByCustomer</span>
+                <span class="method-start">13109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_GetCustomerShipping</span>
+                <span class="method-start">13126 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TriggersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_Before_Workcenters_Insert</span>
+                <span class="method-start">13135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_After_Member_Insert</span>
+                <span class="method-start">13152 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Before_Sales_Update</span>
+                <span class="method-start">13164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_After_Sales_Update</span>
+                <span class="method-start">13171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Before_Salaries_Delete</span>
+                <span class="method-start">13177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_After_Salaries_Delete</span>
+                <span class="method-start">13200 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

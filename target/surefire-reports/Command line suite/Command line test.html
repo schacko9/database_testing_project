@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 05 09:54:30 EDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13277 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.StoredProceduresTest.test_GetOrderByCustomer()'><b>test_GetOrderByCustomer</b><br>Test class: tests.StoredProceduresTest</td>
+<td></td>
+<td>0</td>
+<td>tests.StoredProceduresTest@fade1fc</td></tr>
+<tr>
+<td title='tests.StoredProceduresTest.test_GetCustomerShipping()'><b>test_GetCustomerShipping</b><br>Test class: tests.StoredProceduresTest</td>
+<td></td>
+<td>0</td>
+<td>tests.StoredProceduresTest@fade1fc</td></tr>
+<tr>
+<td title='tests.DataValidationTest.test_Course_Fee_Check()'><b>test_Course_Fee_Check</b><br>Test class: tests.DataValidationTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DataValidationTest@1fdf1c5</td></tr>
+<tr>
+<td title='tests.DataValidationTest.test_Student_Name_NULL()'><b>test_Student_Name_NULL</b><br>Test class: tests.DataValidationTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DataValidationTest@1fdf1c5</td></tr>
+<tr>
+<td title='tests.DataValidationTest.test_Student_CourseID_ForeignKey()'><b>test_Student_CourseID_ForeignKey</b><br>Test class: tests.DataValidationTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DataValidationTest@1fdf1c5</td></tr>
+<tr>
+<td title='tests.StoredProceduresTest.test_SelectAllCustomers_By_City_And_Pin()'><b>test_SelectAllCustomers_By_City_And_Pin</b><br>Test class: tests.StoredProceduresTest</td>
+<td></td>
+<td>0</td>
+<td>tests.StoredProceduresTest@fade1fc</td></tr>
+<tr>
+<td title='tests.TriggersTest.test_Before_Workcenters_Insert()'><b>test_Before_Workcenters_Insert</b><br>Test class: tests.TriggersTest</td>
+<td></td>
+<td>0</td>
+<td>tests.TriggersTest@41dd05a</td></tr>
+<tr>
+<td title='tests.TriggersTest.test_Before_Sales_Update()'><b>test_Before_Sales_Update</b><br>Test class: tests.TriggersTest</td>
+<td></td>
+<td>0</td>
+<td>tests.TriggersTest@41dd05a</td></tr>
+<tr>
+<td title='tests.StoredProceduresTest.test_SelectAllCustomers()'><b>test_SelectAllCustomers</b><br>Test class: tests.StoredProceduresTest</td>
+<td></td>
+<td>0</td>
+<td>tests.StoredProceduresTest@fade1fc</td></tr>
+<tr>
+<td title='tests.StoredFunctionsTest.test_FunctionExists()'><b>test_FunctionExists</b><br>Test class: tests.StoredFunctionsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.StoredFunctionsTest@42463763</td></tr>
+<tr>
+<td title='tests.DataValidationTest.test_Student_ID_PrimaryKey()'><b>test_Student_ID_PrimaryKey</b><br>Test class: tests.DataValidationTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DataValidationTest@1fdf1c5</td></tr>
+<tr>
+<td title='tests.TriggersTest.test_After_Member_Insert()'><b>test_After_Member_Insert</b><br>Test class: tests.TriggersTest</td>
+<td></td>
+<td>0</td>
+<td>tests.TriggersTest@41dd05a</td></tr>
+<tr>
+<td title='tests.DataValidationTest.test_Course_Name_Unique()'><b>test_Course_Name_Unique</b><br>Test class: tests.DataValidationTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DataValidationTest@1fdf1c5</td></tr>
+<tr>
+<td title='tests.DataValidationTest.test_Course_ID_NULL()'><b>test_Course_ID_NULL</b><br>Test class: tests.DataValidationTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DataValidationTest@1fdf1c5</td></tr>
+<tr>
+<td title='tests.TriggersTest.test_After_Salaries_Delete()'><b>test_After_Salaries_Delete</b><br>Test class: tests.TriggersTest</td>
+<td></td>
+<td>0</td>
+<td>tests.TriggersTest@41dd05a</td></tr>
+<tr>
+<td title='tests.SauceLabsDBTest.test_SauceLabs()'><b>test_SauceLabs</b><br>Test class: tests.SauceLabsDBTest<br>Parameters: 6, standard_user, secret_sauce, Sauce Labs Onesie</td>
+<td></td>
+<td>1</td>
+<td>tests.SauceLabsDBTest@6c45ee6e</td></tr>
+<tr>
+<td title='tests.TriggersTest.test_Before_Salaries_Delete()'><b>test_Before_Salaries_Delete</b><br>Test class: tests.TriggersTest</td>
+<td></td>
+<td>0</td>
+<td>tests.TriggersTest@41dd05a</td></tr>
+<tr>
+<td title='tests.DataValidationTest.test_Course_Duration_NULL()'><b>test_Course_Duration_NULL</b><br>Test class: tests.DataValidationTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DataValidationTest@1fdf1c5</td></tr>
+<tr>
+<td title='tests.StoredFunctionsTest.test_CustomerLevel_Function()'><b>test_CustomerLevel_Function</b><br>Test class: tests.StoredFunctionsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.StoredFunctionsTest@42463763</td></tr>
+<tr>
+<td title='tests.TriggersTest.test_After_Sales_Update()'><b>test_After_Sales_Update</b><br>Test class: tests.TriggersTest</td>
+<td></td>
+<td>0</td>
+<td>tests.TriggersTest@41dd05a</td></tr>
+<tr>
+<td title='tests.StoredProceduresTest.test_SelectAllCustomers_By_City()'><b>test_SelectAllCustomers_By_City</b><br>Test class: tests.StoredProceduresTest</td>
+<td></td>
+<td>0</td>
+<td>tests.StoredProceduresTest@fade1fc</td></tr>
+<tr>
+<td title='tests.StoredProceduresTest.test_StoreProcedureExists()'><b>test_StoreProcedureExists</b><br>Test class: tests.StoredProceduresTest</td>
+<td></td>
+<td>0</td>
+<td>tests.StoredProceduresTest@fade1fc</td></tr>
+<tr>
+<td title='tests.SauceLabsDBTest.test_SauceLabs()'><b>test_SauceLabs</b><br>Test class: tests.SauceLabsDBTest<br>Parameters: 7, standard_user, secret_sauce, Sauce Labs Bolt T-Shirt</td>
+<td></td>
+<td>2</td>
+<td>tests.SauceLabsDBTest@6c45ee6e</td></tr>
+<tr>
+<td title='tests.DataValidationTest.test_Student_Age_Check()'><b>test_Student_Age_Check</b><br>Test class: tests.DataValidationTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DataValidationTest@1fdf1c5</td></tr>
+<tr>
+<td title='tests.DataValidationTest.test_Course_ID_PrimaryKey()'><b>test_Course_ID_PrimaryKey</b><br>Test class: tests.DataValidationTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DataValidationTest@1fdf1c5</td></tr>
+<tr>
+<td title='tests.StoredFunctionsTest.test_CustomerLevel_With_Procedure()'><b>test_CustomerLevel_With_Procedure</b><br>Test class: tests.StoredFunctionsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.StoredFunctionsTest@42463763</td></tr>
+</table><p>
+</body>
+</html>

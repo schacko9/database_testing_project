@@ -50,6 +50,20 @@ public class DB_Operations extends DB_Class{
 		return data;
 	}
 	
+	public void setup_SLDB_update(String id) throws SQLException, ClassNotFoundException{ 
+		int i = Integer.parseInt(id);  
+		
+		String sql = "UPDATE saucelabs SET total = 0 WHERE id = ?";
+		PreparedStatement pst = con.prepareStatement(sql);
+
+		pst.setInt(1, i);
+
+		int value = pst.executeUpdate();
+		Assert.assertEquals(value, 1);
+		System.out.println("Successful Setup with "+id);
+
+	}
+	
 	public void update_Total_SLDB(String total,String id) throws SQLException, ClassNotFoundException{
 		float f = Float.parseFloat(total); 
 		int i = Integer.parseInt(id);  

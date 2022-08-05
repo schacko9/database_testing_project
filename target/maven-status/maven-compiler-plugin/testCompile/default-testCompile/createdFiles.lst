@@ -1,0 +1,5 @@
+tests\TriggersTest.class
+tests\StoredProceduresTest.class
+tests\StoredFunctionsTest.class
+tests\SauceLabsDBTest.class
+tests\DataValidationTest.class

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-05T09:54:30 EDT" name="Command line suite" finished-at="2022-08-05T09:54:44 EDT" duration-ms="13277">
+    <groups>
+      <group name="database">
+        <method signature="SauceLabsDBTest.test_SauceLabs(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SauceLabsDBTest@6c45ee6e]" name="test_SauceLabs" class="tests.SauceLabsDBTest"/>
+      </group> <!-- database -->
+    </groups>
+    <test started-at="2022-08-05T09:54:30 EDT" name="Command line test" finished-at="2022-08-05T09:54:44 EDT" duration-ms="13277">
+      <class name="tests.StoredProceduresTest">
+        <test-method signature="test_StoreProcedureExists()[pri:1, instance:tests.StoredProceduresTest@fade1fc]" started-at="2022-08-05T09:54:44 EDT" name="test_StoreProcedureExists" finished-at="2022-08-05T09:54:44 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_StoreProcedureExists -->
+        <test-method signature="test_SelectAllCustomers()[pri:2, instance:tests.StoredProceduresTest@fade1fc]" started-at="2022-08-05T09:54:44 EDT" name="test_SelectAllCustomers" finished-at="2022-08-05T09:54:44 EDT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SelectAllCustomers -->
+        <test-method signature="test_SelectAllCustomers_By_City()[pri:3, instance:tests.StoredProceduresTest@fade1fc]" started-at="2022-08-05T09:54:44 EDT" name="test_SelectAllCustomers_By_City" finished-at="2022-08-05T09:54:44 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SelectAllCustomers_By_City -->
+        <test-method signature="test_SelectAllCustomers_By_City_And_Pin()[pri:4, instance:tests.StoredProceduresTest@fade1fc]" started-at="2022-08-05T09:54:44 EDT" name="test_SelectAllCustomers_By_City_And_Pin" finished-at="2022-08-05T09:54:44 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SelectAllCustomers_By_City_And_Pin -->
+        <test-method signature="test_GetOrderByCustomer()[pri:5, instance:tests.StoredProceduresTest@fade1fc]" started-at="2022-08-05T09:54:44 EDT" name="test_GetOrderByCustomer" finished-at="2022-08-05T09:54:44 EDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_GetOrderByCustomer -->
+        <test-method signature="test_GetCustomerShipping()[pri:6, instance:tests.StoredProceduresTest@fade1fc]" started-at="2022-08-05T09:54:44 EDT" name="test_GetCustomerShipping" finished-at="2022-08-05T09:54:44 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_GetCustomerShipping -->
+      </class> <!-- tests.StoredProceduresTest -->
+      <class name="tests.TriggersTest">
+        <test-method signature="test_Before_Workcenters_Insert()[pri:1, instance:tests.TriggersTest@41dd05a]" started-at="2022-08-05T09:54:44 EDT" name="test_Before_Workcenters_Insert" finished-at="2022-08-05T09:54:44 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Before_Workcenters_Insert -->
+        <test-method signature="test_After_Member_Insert()[pri:2, instance:tests.TriggersTest@41dd05a]" started-at="2022-08-05T09:54:44 EDT" name="test_After_Member_Insert" finished-at="2022-08-05T09:54:44 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_After_Member_Insert -->
+        <test-method signature="test_Before_Sales_Update()[pri:3, instance:tests.TriggersTest@41dd05a]" started-at="2022-08-05T09:54:44 EDT" name="test_Before_Sales_Update" finished-at="2022-08-05T09:54:44 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Before_Sales_Update -->
+        <test-method signature="test_After_Sales_Update()[pri:4, instance:tests.TriggersTest@41dd05a]" started-at="2022-08-05T09:54:44 EDT" name="test_After_Sales_Update" finished-at="2022-08-05T09:54:44 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_After_Sales_Update -->
+        <test-method signature="test_Before_Salaries_Delete()[pri:5, instance:tests.TriggersTest@41dd05a]" started-at="2022-08-05T09:54:44 EDT" name="test_Before_Salaries_Delete" finished-at="2022-08-05T09:54:44 EDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Before_Salaries_Delete -->
+        <test-method signature="test_After_Salaries_Delete()[pri:6, instance:tests.TriggersTest@41dd05a]" started-at="2022-08-05T09:54:44 EDT" name="test_After_Salaries_Delete" finished-at="2022-08-05T09:54:44 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_After_Salaries_Delete -->
+      </class> <!-- tests.TriggersTest -->
+      <class name="tests.StoredFunctionsTest">
+        <test-method signature="test_FunctionExists()[pri:1, instance:tests.StoredFunctionsTest@42463763]" started-at="2022-08-05T09:54:43 EDT" name="test_FunctionExists" finished-at="2022-08-05T09:54:43 EDT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_FunctionExists -->
+        <test-method signature="test_CustomerLevel_Function()[pri:2, instance:tests.StoredFunctionsTest@42463763]" started-at="2022-08-05T09:54:43 EDT" name="test_CustomerLevel_Function" finished-at="2022-08-05T09:54:44 EDT" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CustomerLevel_Function -->
+        <test-method signature="test_CustomerLevel_With_Procedure()[pri:3, instance:tests.StoredFunctionsTest@42463763]" started-at="2022-08-05T09:54:44 EDT" name="test_CustomerLevel_With_Procedure" finished-at="2022-08-05T09:54:44 EDT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CustomerLevel_With_Procedure -->
+      </class> <!-- tests.StoredFunctionsTest -->
+      <class name="tests.SauceLabsDBTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SauceLabsDBTest@6c45ee6e]" started-at="2022-08-05T09:54:31 EDT" name="setup" finished-at="2022-08-05T09:54:36 EDT" duration-ms="4915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_SauceLabs(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SauceLabsDBTest@6c45ee6e]" started-at="2022-08-05T09:54:36 EDT" name="test_SauceLabs" data-provider="DP" finished-at="2022-08-05T09:54:38 EDT" duration-ms="1990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sauce Labs Onesie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SauceLabs -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SauceLabsDBTest@6c45ee6e]" started-at="2022-08-05T09:54:38 EDT" name="teardown" finished-at="2022-08-05T09:54:38 EDT" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SauceLabsDBTest@6c45ee6e]" started-at="2022-08-05T09:54:38 EDT" name="setup" finished-at="2022-08-05T09:54:40 EDT" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_SauceLabs(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SauceLabsDBTest@6c45ee6e]" started-at="2022-08-05T09:54:40 EDT" name="test_SauceLabs" data-provider="DP" finished-at="2022-08-05T09:54:43 EDT" duration-ms="2455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sauce Labs Bolt T-Shirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SauceLabs -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SauceLabsDBTest@6c45ee6e]" started-at="2022-08-05T09:54:43 EDT" name="teardown" finished-at="2022-08-05T09:54:43 EDT" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SauceLabsDBTest -->
+      <class name="tests.DataValidationTest">
+        <test-method signature="test_Course_ID_PrimaryKey()[pri:1, instance:tests.DataValidationTest@1fdf1c5]" started-at="2022-08-05T09:54:31 EDT" name="test_Course_ID_PrimaryKey" finished-at="2022-08-05T09:54:31 EDT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Course_ID_PrimaryKey -->
+        <test-method signature="test_Course_ID_NULL()[pri:2, instance:tests.DataValidationTest@1fdf1c5]" started-at="2022-08-05T09:54:31 EDT" name="test_Course_ID_NULL" finished-at="2022-08-05T09:54:31 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Course_ID_NULL -->
+        <test-method signature="test_Course_Name_Unique()[pri:3, instance:tests.DataValidationTest@1fdf1c5]" started-at="2022-08-05T09:54:31 EDT" name="test_Course_Name_Unique" finished-at="2022-08-05T09:54:31 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Course_Name_Unique -->
+        <test-method signature="test_Course_Duration_NULL()[pri:4, instance:tests.DataValidationTest@1fdf1c5]" started-at="2022-08-05T09:54:31 EDT" name="test_Course_Duration_NULL" finished-at="2022-08-05T09:54:31 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Course_Duration_NULL -->
+        <test-method signature="test_Course_Fee_Check()[pri:5, instance:tests.DataValidationTest@1fdf1c5]" started-at="2022-08-05T09:54:31 EDT" name="test_Course_Fee_Check" finished-at="2022-08-05T09:54:31 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Course_Fee_Check -->
+        <test-method signature="test_Student_ID_PrimaryKey()[pri:6, instance:tests.DataValidationTest@1fdf1c5]" started-at="2022-08-05T09:54:31 EDT" name="test_Student_ID_PrimaryKey" finished-at="2022-08-05T09:54:31 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Student_ID_PrimaryKey -->
+        <test-method signature="test_Student_Name_NULL()[pri:7, instance:tests.DataValidationTest@1fdf1c5]" started-at="2022-08-05T09:54:31 EDT" name="test_Student_Name_NULL" finished-at="2022-08-05T09:54:31 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Student_Name_NULL -->
+        <test-method signature="test_Student_Age_Check()[pri:8, instance:tests.DataValidationTest@1fdf1c5]" started-at="2022-08-05T09:54:31 EDT" name="test_Student_Age_Check" finished-at="2022-08-05T09:54:31 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Student_Age_Check -->
+        <test-method signature="test_Student_CourseID_ForeignKey()[pri:9, instance:tests.DataValidationTest@1fdf1c5]" started-at="2022-08-05T09:54:31 EDT" name="test_Student_CourseID_ForeignKey" finished-at="2022-08-05T09:54:31 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Student_CourseID_ForeignKey -->
+      </class> <!-- tests.DataValidationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
